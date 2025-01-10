@@ -9,6 +9,8 @@
 /* shared styles starts */
 .dark-one {
   color: rgba(14, 14, 14, 0.5);
+  font-size: 14px;
+  font-weight: 400;
 }
 .btn {
   border-radius: 8px;
@@ -17,8 +19,12 @@
   color: white;
 }
 .space-element {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.section-space {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 /* shared style ends */
 .container {
@@ -50,4 +56,43 @@
 }
 .banner-img {
   width: 320px;
+}
+/* vision section starts */
+.feature-container {
+  display: flex;
+  gap: 10px;
+}
+.vision-box {
+  padding: 15px 20px;
+  border-radius: 12px;
+}
+.vision-title {
+  font-weight: 700;
+  font-size: 36px;
+}
+/* vision section ends */
+
+.digital-box {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.energy-box {
+  background-color: rgb(198, 228, 214);
+}
+.infrastructure-box {
+  background-color: rgb(247, 235, 207);
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.digital {
+  background-color: #5490f5;
+}
+.energy {
+  background-color: #09a15c;
+}
+.infrastructure {
+  background-color: #ffc239;
 }
