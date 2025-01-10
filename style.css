@@ -169,3 +169,48 @@
 }
 
 /* donate section ends */
+/* subscribe section starts */
+.subscribe-info {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+.width-text {
+  max-width: 600px;
+}
+.subscribe-text {
+  text-align: center;
+}
+.subscribe-container {
+  height: 350px;
+  background-color: #c6e4d6;
+  border-radius: 20px;
+}
+.input-group {
+  display: flex;
+  /* min-width: ; */
+}
+
+.input-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0 0px 0px 4px;
+  flex: 5;
+  outline: none;
+}
+
+.input-group button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+  border-right: none;
+  background-color: #006a50;
+  color: white;
+  flex: 1;
+}
+
+.input-group button {
+  margin-left: -2px;
+}
+/* subscribe section ends */
