@@ -18,6 +18,9 @@
   padding: 10px 15px;
   color: white;
 }
+.btn:hover {
+  background-color: tomato;
+}
 .space-element {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -29,6 +32,9 @@
 .section-title {
   font-weight: 700;
   font-size: 36px;
+}
+.text-center {
+  text-align: center;
 }
 /* shared style ends */
 .container {
@@ -124,3 +130,42 @@
   margin-top: 20px;
 }
 /* news Section ends */
+/* donate section starts */
+.donate-box {
+  display: flex;
+  gap: 12px;
+}
+.dbox {
+  font-weight: 700;
+  font-size: 26px;
+  width: 24%;
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 108px;
+  border-radius: 14px;
+}
+.box-2 {
+  background-color: #c6e4d6;
+}
+
+.input-style {
+  width: 98%;
+  padding: 15px;
+  margin: 20px 8px;
+  text-align: center;
+  border: none;
+  background-color: white;
+  border: 1.5px solid whitesmoke;
+  height: 100%;
+  border-radius: 5px;
+}
+.donate-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* donate section ends */
