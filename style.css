@@ -1,0 +1,53 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", serif;
+  box-sizing: border-box;
+}
+/* shared styles starts */
+.dark-one {
+  color: rgba(14, 14, 14, 0.5);
+}
+.btn {
+  border-radius: 8px;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+}
+.space-element {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+/* shared style ends */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* banners starts */
+.banner-container {
+  height: 70vh;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 80px;
+}
+.banner-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+.banner-text {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(14, 14, 14);
+}
+.btn-explore {
+  background-color: #006a50;
+}
+.banner-img {
+  width: 320px;
+}
