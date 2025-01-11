@@ -77,8 +77,6 @@
   border-radius: 12px;
 }
 
-/* vision section ends */
-
 .digital-box {
   background-color: rgba(84, 144, 245, 0.2);
 }
@@ -103,7 +101,35 @@
 .infrastructure {
   background-color: #ffc239;
 }
+/* vision section ends */
+/* quotes section starts */
+.quotes-container {
+  width: 100%;
+  padding: 20px 15px;
+  border-radius: 15px;
+  border: 1.5px solid whitesmoke;
+  background-image: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 30px;
+}
+q::before {
+  content: open-quote;
+}
 
+q::after {
+  content: close-quote;
+}
+.quote-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.quotes-info {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 14px;
+}
+/* quotes section ends */
 /* news Section starts */
 .news-hub {
   display: flex;
